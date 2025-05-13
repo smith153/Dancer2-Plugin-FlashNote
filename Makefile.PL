@@ -23,7 +23,9 @@ my %WriteMakefileArgs = (
     "LICENSE"   => "artistic_2",
     "NAME"      => "Dancer2::Plugin::FlashNote",
     "PREREQ_PM" => {
-        "Dancer2" => "0.0001"
+        "Dancer2"              => "0.0001",
+        "Dancer2::Core::Types" => "0.0001",
+        "Dancer2::Plugin"      => "0.0001",
     },
     "VERSION_FROM" => "lib/Dancer2/Plugin/FlashNote.pm",
     "test"    => {
